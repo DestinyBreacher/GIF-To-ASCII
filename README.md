@@ -16,5 +16,5 @@ INPUT GIF
 
 
 
-OUTPUT GIF (300 columns, scale = 1, 20 frames)
+OUTPUT GIF (300 columns, scale = 1, 20 frames)                                                             
 ![out](https://github.com/DestinyBreacher/GIF-To-ASCII/assets/65002814/0fc908be-6eff-43be-b582-51f51796dcb4)
