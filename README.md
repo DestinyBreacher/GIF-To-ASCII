@@ -4,6 +4,8 @@
 All the directories are important to have, or the code won't work.
 The resolution of the output GIF will match the resolution of the input GIF.
 Add your gif in the "gifs" repository as "input.gif". The output gif will be "out.gif".
+There will be a black region to the far right of the GIF, which will reduce with the reduction of the number of columns.
+This is due to the image width generating code not generating accurately, and i'm too lazy to fix it now.
 
 
 
