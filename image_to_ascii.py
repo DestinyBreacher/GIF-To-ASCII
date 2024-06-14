@@ -181,8 +181,8 @@ def writingFile(finalImages, frames):
 if __name__ == "__main__":
     try:
         columns = int(input("Enter the columns : "))
-        scale = float(input("Enter the scale : "))
-        frames = int(input("Enter the frames : "))
+        scale = float(input("Enter the scale (between 0 and 1) : "))
+        frames = int(input("Enter the frames of the output GIF : "))
         turnGIFToImage(frames)
         endImages = asciiTheImage(columns, scale, frames)
         writingFile(endImages,frames)
