@@ -80,7 +80,7 @@ def turnImageToGIF(frames):
 
 def turnGIFToImage(frames):
     try:
-        with Image.open("gifs/Roger.gif") as roger:
+        with Image.open("gifs/input.gif") as roger:
             if roger.n_frames <= frames:
                 print("Too many frames!")
                 exit(0)
