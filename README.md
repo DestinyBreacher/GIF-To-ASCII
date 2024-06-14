@@ -2,8 +2,8 @@
 
 
 All the directories are important to have, or the code won't work.
-You can change the resolution variable in the python file to get a desired resolution of the gif.
-Add your gif in the "gifs" repository as "input.gif". The output gif will be "out.gif"
+The resolution of the output GIF will match the resolution of the input GIF.
+Add your gif in the "gifs" repository as "input.gif". The output gif will be "out.gif".
 
 
 
@@ -16,6 +16,5 @@ INPUT GIF
 
 
 
-OUTPUT GIF (300 columns, scale = 1, 20 frames, resolution = 1080p)
-![out](https://github.com/DestinyBreacher/GIF-To-ASCII/assets/65002814/99b73aea-9936-4118-982c-e2f05cfac268)
-
+OUTPUT GIF (300 columns, scale = 1, 20 frames)
+![out](https://github.com/DestinyBreacher/GIF-To-ASCII/assets/65002814/0fc908be-6eff-43be-b582-51f51796dcb4)
