@@ -6,7 +6,7 @@ from math import ceil
 
 
 
-resolution = (1920, 1080)
+resolution = (0,0)
 greyScale1 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 font = ImageFont.truetype("fonts/Input.ttf", size=30)
 
@@ -64,7 +64,7 @@ def turnImageToGIF(frames):
         gifarray=[]
         for k in range(frames):
             gifarray.append(imageio.imread(f"images/{k}.png"))
-        imageio.mimsave('gifs/out.gif', gifarray)
+        imageio.mimsave('gifs/out.gif', gifarray, loop = 0)
         deleteFiles()
         print("done")
     except Exception as e:
@@ -109,7 +109,8 @@ def asciiTheImage(columns=125, scale=1, frames=15):
                 tileWidth = width/columns
                 tileHeight = tileWidth/scale
                 rows = int(height/tileHeight)
-
+                global resolution 
+                resolution = (width, height)
                 if columns > width or rows > height:
                     print("Image too small for specified cols!")
                     exit(0)
