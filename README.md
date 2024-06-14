@@ -7,7 +7,7 @@ Add your gif in the "gifs" repository as "input.gif". The output gif will be "ou
 
 
 
-INPUT GIF 
+INPUT GIF                                                                                                     
 ![Input](https://github.com/DestinyBreacher/GIF-To-ASCII/assets/65002814/875e28d6-4d7b-4a5c-8ad1-c5ffe29ee775)
 
 
