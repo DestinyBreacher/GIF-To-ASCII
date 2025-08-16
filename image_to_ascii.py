@@ -40,7 +40,7 @@ def getParams(lines):
 
     widest_line = max(lines, key=lambda s: font.getbbox(s)[2])
     max_line_width = font_points_to_pixels(font.getbbox(widest_line)[2])
-    image_width = int(ceil(max_line_width + (2.0 * margin_pixels) - 500))
+    image_width = int(ceil(max_line_width + (2.0 * margin_pixels) - 2000)) # This random ass number changes the black bar width to the right. Use however you want kween
 
     return (image_width, image_height, realistic_line_height)
 
@@ -194,4 +194,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("Program terminated by user!")
         deleteFiles()
+
         exit(0)
